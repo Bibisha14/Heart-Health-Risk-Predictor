@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -119,6 +120,114 @@
   (This tool provides an estimated health risk based on the information entered and is not a substitute for professional medical advice, diagnosis, or treatment.)
 </p><br><br>
 
+<div class="last">
+<div class="bottom">
+    <div class="links">
+        <p2><big>Helpful links</big></p2><br>
+    <a href="https://www.heartfoundation.org.au/blog/symptoms-of-heart-disease" target="_main"> For more heart health details </a>
+     <br>
+    <a href="https://world-heart-federation.org/world-heart-observatory/countries/nepal/ " target="_main">Nepal's Heart Health Observatory</a> 
+    <br><br>
+    <iframe width="400" height="200" src="https://www.youtube.com/embed/94xsLiCiqCQ?si=hpfFHqGM1ZGZRLEQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="400" height="200" src="https://www.youtube.com/embed/NVPSyZU5cro?si=PWkPBOpaAmWcCj5i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+<div class="feedbacks">
+    <p class="Share"><big>Write something!</big></p>
+<form id="feedbackform">
+    <input id="feedback" type="text" placeholder="Share your feedback">
+<input type="submit" value="Send">
+</form>
+<p id="feedbackresult"></p>
+</div>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heart Health Risk Checker</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+</head>
+<body>
+    <div id="box">
+    <h1>Heart Health Risk Predictor <i class="fa-solid fa-heart-pulse"></i></h1>
+    <img src="https://plus.unsplash.com/premium_photo-1718349373623-6615241d1d2c?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" width="250">
+    <br><br>
+    <div class="center-container">
+    <p id="again">Heart Health Risk Predictor is an educational tool designed to help users understand potential heart health risk factors based on basic health information and lifestyle habits.<br> By entering relevant details, users can receive an estimated risk level and explore general heart health awareness resources.<br> 
+       This tool is intended for informational purposes only and does not provide medical advice, diagnosis, or treatment.<br> If you have concerns about your heart health, please consult a qualified healthcare professional.</p>
+    
+    <p id="fix">Enter health information below to receive an estimated heart health risk assessment.<br> The result will classify your risk level as Low, Medium, or High based on the information provided.
+ </p>
+    <br>
+    <p class="question">Enter basic health details below:</p>
+
+
+
+<form id="healthform">
+    
+    <label for="age input">Age</label>
+    <input id="age" type="number" placeholder="yr" min="0" max="120">
+    
+    <label for="blood pressure input">Blood Pressure</label>
+    <input id="bp" type="number" placeholder="mmhg">
+    <label for="Heart Rate input">Heart Rate</label>
+    <input id="heartrate" type="number" placeholder="bpm">
+    <label for="Weight input">Weight</label>
+    <input id="weight" type="number" placeholder="kg">
+    <label for="Height input">Height</label>
+    <input id="height" step="0.1" type="number" placeholder="ft.">
+
+    <br><br>
+<div>
+    <p class="question">Symptoms:</p>
+    </div>
+    <input type="checkbox" text="Fever">Fever
+    <input type="checkbox" text="Dizziness">Dizziness
+    <input type="checkbox" text="Fatigue">Fatigue
+    <input type="checkbox" text="Gastrointenstinal distress">Gastrointenstinal distress
+    <input type="checkbox" text="Fainting">Fainting
+    <input type="checkbox" text="Headache">Headache
+    <input type="checkbox" text="Excessive Sweating">Excessive Sweating
+    <input type="checkbox" text="Chestpain">Chestpain
+    <input type="checkbox" text="Cough">Cough
+    <input type="checkbox" text="Swelling in the legs">Swelling in the legs
+
+  <br>     
+<br>
+<p class="question"> How is your Cholesterol?</p>
+<div>
+    <select id="cholesterol">
+        <option value="Good">Good</option>
+        <option value="bad">bad</option>
+        </select>
+</div>
+<p class="question">Do you excercise?</p>
+<div>
+    <select id="exercise">
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
+        </select>
+</div>
+    <p class="question">Do you smoke?</p>
+<div>
+<select id="smoke">
+    <option value="Yes">Yes</option>
+    <option value="No">No</option>
+</select>
+</div><br>
+<input type="Submit" value="Submit">
+</div>
+</form>
+<p id="result"></p>
+<br> <br>
 <div class="last">
 <div class="bottom">
     <div class="links">
